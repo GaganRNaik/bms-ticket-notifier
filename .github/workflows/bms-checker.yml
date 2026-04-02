@@ -3,8 +3,8 @@ name: BMS Ticket Checker
 on:
   schedule:
     # Every 30 minutes
-    - cron: '*/30 * * * *'
-  workflow_dispatch:  # Manual trigger button
+    - cron: "*/30 * * * *"
+  workflow_dispatch: # Manual trigger button
 
 jobs:
   check-tickets:
@@ -20,7 +20,7 @@ jobs:
       - name: Set up uv
         uses: astral-sh/setup-uv@v7
         with:
-          python-version: '3.14'
+          python-version: "3.14"
 
       - name: Install dependencies
         run: uv sync --frozen
@@ -34,7 +34,9 @@ jobs:
           BMS_DATES: ${{ vars.BMS_DATES }}
           BMS_THEATRE: ${{ vars.BMS_THEATRE }}
           BMS_TIME: ${{ vars.BMS_TIME }}
-        run: uv run main.py
+        run: |
+          echo "DEBUG: BMS_URL = $BMS_URL"
+          uv run main.py
 
       - name: Commit updated state
         run: |
