@@ -22,7 +22,7 @@ import requests
 CONFIG = {
     "url": os.getenv(
         "BMS_URL",
-        "https://in.bookmyshow.com/movies/bengaluru/project-hail-mary/buytickets/ET00481564"
+        "https://in.bookmyshow.com/movies/chennai/dhurandhar-the-revenge/buytickets/ET00478890"
     ),
     "dates": os.getenv("BMS_DATES", ""),          # comma-separated YYYYMMDD, empty = from URL
     "theatre": os.getenv("BMS_THEATRE", ""),       # substring filter, empty = all
@@ -391,10 +391,13 @@ def _cat_status_label(status):
 
 def send_email(subject, changes, shows, movie_info):
     api_key = RESEND_API_KEY.strip()
-    to = RESEND_TO_EMAIL.strip()
+    to_str = RESEND_TO_EMAIL.strip()
     frm = RESEND_FROM_EMAIL.strip() or "onboarding@resend.dev"
 
-    if not api_key or not to:
+    # Parse comma-separated emails
+    to_emails = [e.strip() for e in to_str.split(",") if e.strip()]
+
+    if not api_key or not to_emails:
         print("  ⚠️  Skipping email — RESEND_API_KEY or RESEND_TO_EMAIL not set.")
         return
 
@@ -505,14 +508,14 @@ def send_email(subject, changes, shows, movie_info):
                 "Content-Type": "application/json",
             },
             json={
-                "from": frm, "to": [to],
+                "from": frm, "to": to_emails,
                 "subject": subject,
                 "text": plain, "html": html,
             },
             timeout=15,
         )
         if resp.status_code in (200, 201):
-            print(f"  ✅ Email sent to {to}")
+            print(f"  ✅ Email sent to {', '.join(to_emails)}")
         else:
             print(f"  ❌ Resend {resp.status_code}: {resp.text}")
             sys.exit(1)
@@ -535,6 +538,7 @@ def main():
     url_date = parsed.get("date_code", "")
 
     if not event_code or not region_slug:
+        print()
         print("  ❌ Invalid BMS_URL. Could not extract event/region.")
         sys.exit(1)
 
@@ -597,7 +601,7 @@ def main():
 
     save_state(new_state)
 
-    if changes:
+    if changes or True:
         print(f"\n  ⚡ {len(changes)} change(s) detected:")
         for c in changes:
             print(f"     {c}")
