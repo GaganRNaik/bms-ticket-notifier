@@ -14,7 +14,7 @@
       "date": "20260403",
       "cat": "PRIME ROWS",
       "price": "800.00",
-      "status": "3"
+      "status": "2"
     },
     "PVFF|45777|20260403|EXTRA LEGROOM ROWS": {
       "venue": "PVR: Nexus (Formerly Forum), Koramangala",
@@ -22,14 +22,14 @@
       "date": "20260403",
       "cat": "EXTRA LEGROOM ROWS",
       "price": "800.00",
-      "status": "3"
+      "status": "2"
     },
     "PVFF|45777|20260403|CLASSIC PLUS ROWS": {
       "venue": "PVR: Nexus (Formerly Forum), Koramangala",
       "time": "08:30 AM",
       "date": "20260403",
       "cat": "CLASSIC PLUS ROWS",
-      "price": "700.00",
+      "price": "800.00",
       "status": "3"
     },
     "PVFF|45777|20260403|CLASSIC ROWS": {
@@ -110,7 +110,7 @@
       "date": "20260403",
       "cat": "CLASSIC PLUS ROWS",
       "price": "1340.00",
-      "status": "3"
+      "status": "2"
     },
     "PVFF|45781|20260403|CLASSIC ROWS": {
       "venue": "PVR: Nexus (Formerly Forum), Koramangala",
@@ -136,14 +136,6 @@
       "price": "699.00",
       "status": "2"
     },
-    "PVER|47726|20260403|CLASSIC ROWS": {
-      "venue": "PVR: Vega City, Bannerghatta Road",
-      "time": "07:35 AM",
-      "date": "20260403",
-      "cat": "CLASSIC ROWS",
-      "price": "599.00",
-      "status": "3"
-    },
     "PVER|47726|20260403|PRIME ROWS": {
       "venue": "PVR: Vega City, Bannerghatta Road",
       "time": "07:35 AM",
@@ -157,6 +149,14 @@
       "time": "07:35 AM",
       "date": "20260403",
       "cat": "CLASSIC PLUS ROWS",
+      "price": "599.00",
+      "status": "3"
+    },
+    "PVER|47726|20260403|CLASSIC ROWS": {
+      "venue": "PVR: Vega City, Bannerghatta Road",
+      "time": "07:35 AM",
+      "date": "20260403",
+      "cat": "CLASSIC ROWS",
       "price": "599.00",
       "status": "3"
     },
@@ -174,7 +174,7 @@
       "date": "20260403",
       "cat": "PICTURE  PERFECT",
       "price": "900.00",
-      "status": "1"
+      "status": "0"
     },
     "PVER|47727|20260403|PRIME ROWS": {
       "venue": "PVR: Vega City, Bannerghatta Road",
@@ -206,7 +206,7 @@
       "date": "20260403",
       "cat": "EXTRA LEGROOM ROWS",
       "price": "950.00",
-      "status": "2"
+      "status": "0"
     },
     "PVER|47731|20260403|PICTURE  PERFECT": {
       "venue": "PVR: Vega City, Bannerghatta Road",
@@ -270,7 +270,7 @@
       "date": "20260403",
       "cat": "CLASSIC ROWS",
       "price": "850.00",
-      "status": "2"
+      "status": "3"
     },
     "PVWW|33839|20260403|PICTURE  PERFECT": {
       "venue": "PVR: VR Bengaluru, Whitefield Road",
@@ -350,7 +350,7 @@
       "date": "20260404",
       "cat": "EXTRA LEGROOM ROWS",
       "price": "900.00",
-      "status": "3"
+      "status": "2"
     },
     "PVFF|45783|20260404|PRIME ROWS": {
       "venue": "PVR: Nexus (Formerly Forum), Koramangala",
@@ -430,7 +430,7 @@
       "date": "20260404",
       "cat": "EXTRA LEGROOM ROWS",
       "price": "1400.00",
-      "status": "3"
+      "status": "1"
     },
     "PVFF|45787|20260404|PRIME ROWS": {
       "venue": "PVR: Nexus (Formerly Forum), Koramangala",
@@ -438,7 +438,7 @@
       "date": "20260404",
       "cat": "PRIME ROWS",
       "price": "1370.00",
-      "status": "2"
+      "status": "1"
     },
     "PVFF|45787|20260404|CLASSIC PLUS ROWS": {
       "venue": "PVR: Nexus (Formerly Forum), Koramangala",
@@ -446,7 +446,7 @@
       "date": "20260404",
       "cat": "CLASSIC PLUS ROWS",
       "price": "1340.00",
-      "status": "3"
+      "status": "2"
     },
     "PVFF|45787|20260404|CLASSIC ROWS": {
       "venue": "PVR: Nexus (Formerly Forum), Koramangala",
@@ -472,6 +472,14 @@
       "price": "649.00",
       "status": "3"
     },
+    "PVER|47732|20260404|CLASSIC ROWS": {
+      "venue": "PVR: Vega City, Bannerghatta Road",
+      "time": "07:35 AM",
+      "date": "20260404",
+      "cat": "CLASSIC ROWS",
+      "price": "599.00",
+      "status": "3"
+    },
     "PVER|47732|20260404|PRIME ROWS": {
       "venue": "PVR: Vega City, Bannerghatta Road",
       "time": "07:35 AM",
@@ -485,14 +493,6 @@
       "time": "07:35 AM",
       "date": "20260404",
       "cat": "CLASSIC PLUS ROWS",
-      "price": "599.00",
-      "status": "3"
-    },
-    "PVER|47732|20260404|CLASSIC ROWS": {
-      "venue": "PVR: Vega City, Bannerghatta Road",
-      "time": "07:35 AM",
-      "date": "20260404",
-      "cat": "CLASSIC ROWS",
       "price": "599.00",
       "status": "3"
     },
@@ -510,7 +510,7 @@
       "date": "20260404",
       "cat": "PICTURE  PERFECT",
       "price": "900.00",
-      "status": "1"
+      "status": "0"
     },
     "PVER|47733|20260404|PRIME ROWS": {
       "venue": "PVR: Vega City, Bannerghatta Road",
@@ -544,21 +544,21 @@
       "price": "900.00",
       "status": "1"
     },
+    "PVER|47737|20260404|PRIME ROWS": {
+      "venue": "PVR: Vega City, Bannerghatta Road",
+      "time": "10:30 PM",
+      "date": "20260404",
+      "cat": "PRIME ROWS",
+      "price": "850.00",
+      "status": "2"
+    },
     "PVER|47737|20260404|EXTRA LEGROOM ROWS": {
       "venue": "PVR: Vega City, Bannerghatta Road",
       "time": "10:30 PM",
       "date": "20260404",
       "cat": "EXTRA LEGROOM ROWS",
       "price": "850.00",
-      "status": "2"
-    },
-    "PVER|47737|20260404|PRIME ROWS": {
-      "venue": "PVR: Vega City, Bannerghatta Road",
-      "time": "10:30 PM",
-      "date": "20260404",
-      "cat": "PRIME ROWS",
-      "price": "750.00",
-      "status": "2"
+      "status": "0"
     },
     "PVER|47737|20260404|CLASSIC PLUS ROWS": {
       "venue": "PVR: Vega City, Bannerghatta Road",
@@ -581,7 +581,7 @@
       "time": "05:00 PM",
       "date": "20260404",
       "cat": "PICTURE  PERFECT",
-      "price": "570.00",
+      "price": "1300.00",
       "status": "0"
     },
     "PVWW|33858|20260404|PRIME ROWS": {
@@ -589,15 +589,15 @@
       "time": "05:00 PM",
       "date": "20260404",
       "cat": "PRIME ROWS",
-      "price": "540.00",
-      "status": "0"
+      "price": "1250.00",
+      "status": "1"
     },
     "PVWW|33858|20260404|CLASSIC PLUS ROWS": {
       "venue": "PVR: VR Bengaluru, Whitefield Road",
       "time": "05:00 PM",
       "date": "20260404",
       "cat": "CLASSIC PLUS ROWS",
-      "price": "510.00",
+      "price": "1150.00",
       "status": "1"
     },
     "PVWW|33858|20260404|CLASSIC ROWS": {
@@ -605,7 +605,7 @@
       "time": "05:00 PM",
       "date": "20260404",
       "cat": "CLASSIC ROWS",
-      "price": "410.00",
+      "price": "1000.00",
       "status": "3"
     }
   },
