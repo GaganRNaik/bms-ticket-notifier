@@ -35,6 +35,9 @@ jobs:
           BMS_THEATRE: ${{ vars.BMS_THEATRE }}
           BMS_TIME: ${{ vars.BMS_TIME }}
         run: |
+          if [ -z "$BMS_URL" ]; then
+            export BMS_URL="https://in.bookmyshow.com/movies/bengaluru/project-hail-mary/buytickets/ET00481564"
+          fi
           echo "DEBUG: BMS_URL = $BMS_URL"
           uv run main.py
 
