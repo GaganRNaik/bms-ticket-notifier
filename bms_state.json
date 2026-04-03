@@ -1,45 +1,5 @@
 {
   "shows": {
-    "PVFF|45779|20260403|PICTURE  PERFECT": {
-      "venue": "PVR: Nexus (Formerly Forum), Koramangala",
-      "time": "01:45 PM",
-      "date": "20260403",
-      "cat": "PICTURE  PERFECT",
-      "price": "1420.00",
-      "status": "1"
-    },
-    "PVFF|45779|20260403|EXTRA LEGROOM ROWS": {
-      "venue": "PVR: Nexus (Formerly Forum), Koramangala",
-      "time": "01:45 PM",
-      "date": "20260403",
-      "cat": "EXTRA LEGROOM ROWS",
-      "price": "1400.00",
-      "status": "0"
-    },
-    "PVFF|45779|20260403|PRIME ROWS": {
-      "venue": "PVR: Nexus (Formerly Forum), Koramangala",
-      "time": "01:45 PM",
-      "date": "20260403",
-      "cat": "PRIME ROWS",
-      "price": "1370.00",
-      "status": "0"
-    },
-    "PVFF|45779|20260403|CLASSIC PLUS ROWS": {
-      "venue": "PVR: Nexus (Formerly Forum), Koramangala",
-      "time": "01:45 PM",
-      "date": "20260403",
-      "cat": "CLASSIC PLUS ROWS",
-      "price": "1340.00",
-      "status": "0"
-    },
-    "PVFF|45779|20260403|CLASSIC ROWS": {
-      "venue": "PVR: Nexus (Formerly Forum), Koramangala",
-      "time": "01:45 PM",
-      "date": "20260403",
-      "cat": "CLASSIC ROWS",
-      "price": "1320.00",
-      "status": "2"
-    },
     "PVFF|45781|20260403|PICTURE  PERFECT": {
       "venue": "PVR: Nexus (Formerly Forum), Koramangala",
       "time": "07:15 PM",
@@ -117,7 +77,7 @@
       "time": "10:30 PM",
       "date": "20260403",
       "cat": "CLASSIC ROWS",
-      "price": "700.00",
+      "price": "800.00",
       "status": "3"
     },
     "PVWW|33841|20260403|PICTURE  PERFECT": {
@@ -150,7 +110,7 @@
       "date": "20260403",
       "cat": "CLASSIC ROWS",
       "price": "1100.00",
-      "status": "2"
+      "status": "1"
     },
     "PVFF|45783|20260404|PICTURE  PERFECT": {
       "venue": "PVR: Nexus (Formerly Forum), Koramangala",
@@ -334,7 +294,7 @@
       "date": "20260404",
       "cat": "PRIME ROWS",
       "price": "850.00",
-      "status": "1"
+      "status": "0"
     },
     "PVER|47733|20260404|CLASSIC PLUS ROWS": {
       "venue": "PVR: Vega City, Bannerghatta Road",
