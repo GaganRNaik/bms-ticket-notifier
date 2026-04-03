@@ -30,7 +30,7 @@
       "date": "20260403",
       "cat": "CLASSIC PLUS ROWS",
       "price": "1340.00",
-      "status": "1"
+      "status": "0"
     },
     "PVFF|45781|20260403|CLASSIC ROWS": {
       "venue": "PVR: Nexus (Formerly Forum), Koramangala",
@@ -94,7 +94,7 @@
       "date": "20260403",
       "cat": "PRIME ROWS",
       "price": "1250.00",
-      "status": "1"
+      "status": "0"
     },
     "PVWW|33841|20260403|CLASSIC PLUS ROWS": {
       "venue": "PVR: VR Bengaluru, Whitefield Road",
@@ -174,7 +174,7 @@
       "date": "20260404",
       "cat": "PRIME ROWS",
       "price": "1370.00",
-      "status": "1"
+      "status": "0"
     },
     "PVFF|45785|20260404|CLASSIC PLUS ROWS": {
       "venue": "PVR: Nexus (Formerly Forum), Koramangala",
