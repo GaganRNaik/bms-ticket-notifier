@@ -38,7 +38,7 @@
       "date": "20260403",
       "cat": "CLASSIC ROWS",
       "price": "1320.00",
-      "status": "3"
+      "status": "2"
     },
     "PVER|47731|20260403|EXTRA LEGROOM ROWS": {
       "venue": "PVR: Vega City, Bannerghatta Road",
@@ -94,7 +94,7 @@
       "date": "20260403",
       "cat": "PRIME ROWS",
       "price": "1250.00",
-      "status": "0"
+      "status": "1"
     },
     "PVWW|33841|20260403|CLASSIC PLUS ROWS": {
       "venue": "PVR: VR Bengaluru, Whitefield Road",
@@ -232,14 +232,6 @@
       "price": "1320.00",
       "status": "3"
     },
-    "PVER|47732|20260404|EXTRA LEGROOM ROWS": {
-      "venue": "PVR: Vega City, Bannerghatta Road",
-      "time": "07:35 AM",
-      "date": "20260404",
-      "cat": "EXTRA LEGROOM ROWS",
-      "price": "749.00",
-      "status": "0"
-    },
     "PVER|47732|20260404|PICTURE  PERFECT": {
       "venue": "PVR: Vega City, Bannerghatta Road",
       "time": "07:35 AM",
@@ -248,19 +240,27 @@
       "price": "749.00",
       "status": "0"
     },
-    "PVER|47732|20260404|PRIME ROWS": {
+    "PVER|47732|20260404|EXTRA LEGROOM ROWS": {
       "venue": "PVR: Vega City, Bannerghatta Road",
       "time": "07:35 AM",
       "date": "20260404",
-      "cat": "PRIME ROWS",
-      "price": "699.00",
-      "status": "1"
+      "cat": "EXTRA LEGROOM ROWS",
+      "price": "749.00",
+      "status": "0"
     },
     "PVER|47732|20260404|CLASSIC PLUS ROWS": {
       "venue": "PVR: Vega City, Bannerghatta Road",
       "time": "07:35 AM",
       "date": "20260404",
       "cat": "CLASSIC PLUS ROWS",
+      "price": "699.00",
+      "status": "2"
+    },
+    "PVER|47732|20260404|PRIME ROWS": {
+      "venue": "PVR: Vega City, Bannerghatta Road",
+      "time": "07:35 AM",
+      "date": "20260404",
+      "cat": "PRIME ROWS",
       "price": "699.00",
       "status": "1"
     },
@@ -374,7 +374,7 @@
       "date": "20260404",
       "cat": "CLASSIC PLUS ROWS",
       "price": "950.00",
-      "status": "2"
+      "status": "1"
     },
     "PVWW|33855|20260404|CLASSIC ROWS": {
       "venue": "PVR: VR Bengaluru, Whitefield Road",
